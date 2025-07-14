@@ -8,7 +8,7 @@ from threading import Thread
 
 from prompt_toolkit import prompt
 from pygments.lexers import LuaLexer
-from prompt_toolkit.layout.lexers import PygmentsLexer
+from prompt_toolkit.lexers import PygmentsLexer
 from prompt_toolkit.history import FileHistory
 
 history = FileHistory('.nodemcu-repl_history')
